@@ -1,0 +1,101 @@
+.rightbar{
+    flex: 3;
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 45px);
+    overflow: scroll;
+    background-color: rgb(249, 246, 246);
+
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+     
+    img{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .container{
+        padding: 20px;
+       
+
+        .item{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            padding: 10px;
+            margin-bottom: 20px;
+
+            span{
+                color: grey;
+                font-size: 13px;
+            }
+
+            .user{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 13px;
+               
+
+                .userinfo{
+                    display: flex;
+                   align-items: center;
+                   gap: 13px;
+                   position: relative;
+
+                   span{
+                    font-weight: 600;
+                    color: black;
+                   }
+                   p{
+                    font-size: 11px;
+                   }
+
+                   .online{
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    background-color: limegreen;
+                    position: absolute;
+                    bottom: 2px;
+                    left: 18px;
+                }
+                }
+
+               
+
+                .buttons{
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                    
+                    button{
+                        border: none;
+                        cursor: pointer;
+                        padding: 3px;
+                        color: white;
+                        height: 20px;
+                        width: 60px;
+                        border-radius: 3px;
+
+                        &:first-child{
+                            background-color: blue;
+                        }
+                        &:last-child{
+                            background-color: red;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    
+
+    
+    
+    
+}

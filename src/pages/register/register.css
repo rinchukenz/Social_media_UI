@@ -1,0 +1,108 @@
+.login{
+    height: 100vh;
+    background-color: rgb(239, 239, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card{
+        display: flex;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        height: 60%;
+        overflow: hidden;
+        
+        
+        
+        .left{
+            
+            width: 50%;
+            background-image: url('https://images.pexels.com/photos/8590249/pexels-photo-8590249.jpeg?auto=compress&cs=tinysrgb&w=600');
+            padding-left: 30px;
+            padding-bottom: 20px;
+            padding-right: 30px;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            
+            background-size: cover;
+            color: aliceblue;
+            
+            
+            
+            h1{
+                
+                font-size: 60px;
+                margin-top: 40px;
+                margin-bottom: 10px;
+                
+                
+                
+            }
+            p{
+                
+                
+                font-size: 13px;
+                
+                
+            }
+            span{
+                
+                font-size: 13px;
+            }
+            button{
+                
+                height: 26px;
+                margin-top: 15px;
+                width: 160px;
+                border: none;
+                cursor: pointer;
+
+            }
+        }
+
+        .right{
+            
+            width: 50%;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            padding-right: 30px;
+            padding-top: 20px;
+            flex-direction: column;
+            justify-content: center;
+           
+           
+            
+           
+            
+            h2{
+                margin-top: 20px;
+                color: rgba(52, 47, 47, 0.957);
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                margin-top: 10px;
+                input{
+                    
+                    border: none;
+                    border-bottom: 2px solid lightgray;
+                    height: 25px;
+                }
+                button{
+                border: none;
+                font-size: 11px;
+                color: white;
+                width: 140px;
+                height: 25px;
+                background-color: rgb(227, 213, 109);
+                cursor: pointer;
+                
+                }
+                
+            }
+        }
+    }
+}

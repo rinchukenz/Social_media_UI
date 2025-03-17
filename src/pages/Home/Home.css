@@ -1,0 +1,10 @@
+.home{
+    background-color: rgb(249, 246, 246);
+    top: 50px;
+    height: calc(100vh - 45px);
+    overflow: scroll;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
